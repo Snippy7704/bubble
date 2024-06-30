@@ -34,7 +34,7 @@ int main() {
 
             array = (int*)malloc(size * sizeof(int));
 
-            //Заполнение рандомными числами
+       
 
             for (int i = 0; i < size; i++) {
                 array[i] = rand() % 100; // от 0 до 100
