@@ -1,0 +1,3 @@
+﻿  fulka.c
+D:\algbub\lastgame\lastgame\fulka.c(37,8): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lastgame.vcxproj -> D:\algbub\lastgame\x64\Debug\lastgame.exe
