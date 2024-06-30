@@ -1,0 +1,10 @@
+﻿  menushk52.c
+C:\Users\Admin\Desktop\VUZ\Programmirovanie\Bubblesort\menushk52.c(10,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Admin\Desktop\VUZ\Programmirovanie\Bubblesort\menushk52.c(25,14): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Admin\Desktop\VUZ\Programmirovanie\Bubblesort\menushk52.c(47,13): warning C4013: writeArray: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Admin\Desktop\VUZ\Programmirovanie\Bubblesort\menushk52.c(49,13): warning C4013: printArray: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Admin\Desktop\VUZ\Programmirovanie\Bubblesort\menushk52.c(56,13): warning C4013: bubbleSort: нет определения; предполагается "extern" с возвратом типа "int"
+menushk52.obj : error LNK2019: ссылка на неразрешенный внешний символ _writeArray в функции _main.
+menushk52.obj : error LNK2019: ссылка на неразрешенный внешний символ _printArray в функции _main.
+menushk52.obj : error LNK2019: ссылка на неразрешенный внешний символ _bubbleSort в функции _main.
+C:\Users\Admin\Desktop\VUZ\Programmirovanie\Bubblesort\Debug\Bubblesort.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
