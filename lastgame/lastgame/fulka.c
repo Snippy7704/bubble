@@ -65,12 +65,12 @@ int main() {
 			time_t start = clock();
 			bubbleSort(array, size);
 			time_t stop = clock();
-			double time = (stop - start) / 1000.0;
+			double time = stop / 10000.0;
 			//Запись отсортированного массива в файл
 			writeArray(array, size, "sorted_numbers.txt");
 			printf("\nОтсортированный массив: ");
 			printArray(array, size);
-			printf("\n\nВремя выполнения сортировки: %lf секунд", time);
+			printf("\n\nВремя выполнения сортировки: %lf микросекунд", time);
 			printf("\n\n\n");
 			system("pause");
 			free(array);
@@ -93,12 +93,12 @@ int main() {
 			time_t start1 = clock();
 			bubbleSort(array, size);
 			time_t stop1 = clock();
-			double time1 = (stop1 - start1) / 1000.0;
+			double time1 = stop1 / 10000.0;
 			//Запись отсортированного массива в файл
 			writeArray(array, size, "sorted_numbers.txt");
 			printf("\nОтсортированный массив: ");
 			printArray(array, size);
-			printf("\n\nВремя выполнения сортировки: %lf секунд", time1);
+			printf("\n\nВремя выполнения сортировки: %lf микросекунд", time1);
 			printf("\n\n\n");
 			system("pause");
 			free(array);
